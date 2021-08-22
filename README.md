@@ -8,6 +8,6 @@ This App will calculate the GPA on the basis of credit and grades provided.<br>
 5. Many screens have static ads<br>
 6. also data is saved in sqlite data base.<br>
 <img src = "https://github.com/mksmanish/GPA-Calculator/blob/main/Sreenshot/Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202021-08-22%20at%2010.13.35.png" width="200" height="400" ><br>
-<img src = " https://github.com/mksmanish/GPA-Calculator/blob/main/Sreenshot/Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202021-08-22%20at%2010.14.30.png" width="200" height="400" ><br>
+<img src = "https://github.com/mksmanish/GPA-Calculator/blob/main/Sreenshot/Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202021-08-22%20at%2010.14.30.png" width="200" height="400" ><br>
 
 
