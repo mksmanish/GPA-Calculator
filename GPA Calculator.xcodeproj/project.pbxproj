@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1310D47E26D169D5000ABAF2 /* DBhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1310D47D26D169D5000ABAF2 /* DBhelper.swift */; };
+		131BCC5626CFF6AB002F71DF /* SelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131BCC5526CFF6AB002F71DF /* SelectionTableViewController.swift */; };
 		133940C326CFA8510015A5EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133940C226CFA8510015A5EF /* AppDelegate.swift */; };
 		133940C526CFA8510015A5EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133940C426CFA8510015A5EF /* SceneDelegate.swift */; };
-		133940C726CFA8510015A5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133940C626CFA8510015A5EF /* ViewController.swift */; };
 		133940CA26CFA8510015A5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133940C826CFA8510015A5EF /* Main.storyboard */; };
 		133940CC26CFA8520015A5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133940CB26CFA8520015A5EF /* Assets.xcassets */; };
 		133940CF26CFA8520015A5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133940CD26CFA8520015A5EF /* LaunchScreen.storyboard */; };
+		133940D926CFAB3D0015A5EF /* SpashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133940D826CFAB3D0015A5EF /* SpashViewController.swift */; };
+		133940DC26CFAC170015A5EF /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133940DB26CFAC170015A5EF /* Start.storyboard */; };
+		133940DF26CFAC5C0015A5EF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133940DE26CFAC5C0015A5EF /* HomeViewController.swift */; };
+		133940E326CFB3E20015A5EF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133940E226CFB3E20015A5EF /* SettingsViewController.swift */; };
+		133940E626CFBDBF0015A5EF /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133940E526CFBDBF0015A5EF /* PrivacyViewController.swift */; };
+		133940E926CFC3940015A5EF /* AvgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133940E826CFC3940015A5EF /* AvgViewController.swift */; };
+		133940EC26CFD2510015A5EF /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133940EB26CFD2510015A5EF /* CalculationViewController.swift */; };
+		133940F026CFE0600015A5EF /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133940EF26CFE0600015A5EF /* Grade.swift */; };
+		133940F526CFE7870015A5EF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133940F426CFE7860015A5EF /* Utils.swift */; };
+		13651A8D26D092860043E1EF /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13651A8C26D092860043E1EF /* Protocols.swift */; };
+		13651A9026D09CC10043E1EF /* SelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13651A8F26D09CC10043E1EF /* SelectionCell.swift */; };
+		13FE69AE26D00D47005D2AED /* AdvertiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13FE69AD26D00D47005D2AED /* AdvertiseView.xib */; };
+		13FE69B126D00E2E005D2AED /* Advertisefile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE69B026D00E2E005D2AED /* Advertisefile.swift */; };
+		13FE69B426D00ED0005D2AED /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE69B326D00ED0005D2AED /* Utility.swift */; };
+		1D93216DFBC692D828C6B477 /* Pods_GPA_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE0921B2DD6C4C3B88673ED /* Pods_GPA_Calculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1310D47D26D169D5000ABAF2 /* DBhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBhelper.swift; sourceTree = "<group>"; };
+		131BCC5526CFF6AB002F71DF /* SelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewController.swift; sourceTree = "<group>"; };
 		133940BF26CFA8510015A5EF /* GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		133940C226CFA8510015A5EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		133940C426CFA8510015A5EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		133940C626CFA8510015A5EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		133940C926CFA8510015A5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		133940CB26CFA8520015A5EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		133940CE26CFA8520015A5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		133940D026CFA8520015A5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133940D826CFAB3D0015A5EF /* SpashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpashViewController.swift; sourceTree = "<group>"; };
+		133940DB26CFAC170015A5EF /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		133940DE26CFAC5C0015A5EF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		133940E226CFB3E20015A5EF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		133940E526CFBDBF0015A5EF /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		133940E826CFC3940015A5EF /* AvgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvgViewController.swift; sourceTree = "<group>"; };
+		133940EB26CFD2510015A5EF /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
+		133940EF26CFE0600015A5EF /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		133940F426CFE7860015A5EF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		13651A8C26D092860043E1EF /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		13651A8F26D09CC10043E1EF /* SelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCell.swift; sourceTree = "<group>"; };
+		13FE69AD26D00D47005D2AED /* AdvertiseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvertiseView.xib; sourceTree = "<group>"; };
+		13FE69B026D00E2E005D2AED /* Advertisefile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertisefile.swift; sourceTree = "<group>"; };
+		13FE69B326D00ED0005D2AED /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		32CE61CBE2B12EA5AB150A70 /* Pods-GPA Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPA Calculator.release.xcconfig"; path = "Target Support Files/Pods-GPA Calculator/Pods-GPA Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		7F78D6EE915A763E64F793AC /* Pods-GPA Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPA Calculator.debug.xcconfig"; path = "Target Support Files/Pods-GPA Calculator/Pods-GPA Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		CFE0921B2DD6C4C3B88673ED /* Pods_GPA_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPA_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D93216DFBC692D828C6B477 /* Pods_GPA_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AF538BD8427A7CFABA7618D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFE0921B2DD6C4C3B88673ED /* Pods_GPA_Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		133940B626CFA8510015A5EF = {
 			isa = PBXGroup;
 			children = (
 				133940C126CFA8510015A5EF /* GPA Calculator */,
 				133940C026CFA8510015A5EF /* Products */,
+				958FCFE4A17F4CEB4E479456 /* Pods */,
+				0AF538BD8427A7CFABA7618D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,79 @@
 		133940C126CFA8510015A5EF /* GPA Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				13FE69CD26D02039005D2AED /* StoryBoard */,
+				13FE69CB26D02016005D2AED /* Controllers */,
+				13FE69AB26D00D14005D2AED /* Cells */,
+				133940F326CFE7740015A5EF /* Common */,
+				133940EE26CFE03B0015A5EF /* Model */,
 				133940C226CFA8510015A5EF /* AppDelegate.swift */,
 				133940C426CFA8510015A5EF /* SceneDelegate.swift */,
-				133940C626CFA8510015A5EF /* ViewController.swift */,
-				133940C826CFA8510015A5EF /* Main.storyboard */,
 				133940CB26CFA8520015A5EF /* Assets.xcassets */,
 				133940CD26CFA8520015A5EF /* LaunchScreen.storyboard */,
 				133940D026CFA8520015A5EF /* Info.plist */,
 			);
 			path = "GPA Calculator";
+			sourceTree = "<group>";
+		};
+		133940EE26CFE03B0015A5EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				133940EF26CFE0600015A5EF /* Grade.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		133940F326CFE7740015A5EF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				133940F426CFE7860015A5EF /* Utils.swift */,
+				13FE69B326D00ED0005D2AED /* Utility.swift */,
+				13651A8C26D092860043E1EF /* Protocols.swift */,
+				1310D47D26D169D5000ABAF2 /* DBhelper.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		13FE69AB26D00D14005D2AED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				13FE69AD26D00D47005D2AED /* AdvertiseView.xib */,
+				13FE69B026D00E2E005D2AED /* Advertisefile.swift */,
+				13651A8F26D09CC10043E1EF /* SelectionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		13FE69CB26D02016005D2AED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				133940D826CFAB3D0015A5EF /* SpashViewController.swift */,
+				133940DE26CFAC5C0015A5EF /* HomeViewController.swift */,
+				133940E226CFB3E20015A5EF /* SettingsViewController.swift */,
+				133940E526CFBDBF0015A5EF /* PrivacyViewController.swift */,
+				133940E826CFC3940015A5EF /* AvgViewController.swift */,
+				133940EB26CFD2510015A5EF /* CalculationViewController.swift */,
+				131BCC5526CFF6AB002F71DF /* SelectionTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		13FE69CD26D02039005D2AED /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				133940C826CFA8510015A5EF /* Main.storyboard */,
+				133940DB26CFAC170015A5EF /* Start.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		958FCFE4A17F4CEB4E479456 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F78D6EE915A763E64F793AC /* Pods-GPA Calculator.debug.xcconfig */,
+				32CE61CBE2B12EA5AB150A70 /* Pods-GPA Calculator.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 133940D326CFA8520015A5EF /* Build configuration list for PBXNativeTarget "GPA Calculator" */;
 			buildPhases = (
+				7F8D09BED5A02A8E598443E6 /* [CP] Check Pods Manifest.lock */,
 				133940BB26CFA8510015A5EF /* Sources */,
 				133940BC26CFA8510015A5EF /* Frameworks */,
 				133940BD26CFA8510015A5EF /* Resources */,
+				28C42DFBB5A52F7BFE474702 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +236,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				133940CF26CFA8520015A5EF /* LaunchScreen.storyboard in Resources */,
+				133940DC26CFAC170015A5EF /* Start.storyboard in Resources */,
 				133940CC26CFA8520015A5EF /* Assets.xcassets in Resources */,
+				13FE69AE26D00D47005D2AED /* AdvertiseView.xib in Resources */,
 				133940CA26CFA8510015A5EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28C42DFBB5A52F7BFE474702 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPA Calculator/Pods-GPA Calculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPA Calculator/Pods-GPA Calculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPA Calculator/Pods-GPA Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F8D09BED5A02A8E598443E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPA Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		133940BB26CFA8510015A5EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133940C726CFA8510015A5EF /* ViewController.swift in Sources */,
+				13FE69B426D00ED0005D2AED /* Utility.swift in Sources */,
 				133940C326CFA8510015A5EF /* AppDelegate.swift in Sources */,
+				13651A9026D09CC10043E1EF /* SelectionCell.swift in Sources */,
+				131BCC5626CFF6AB002F71DF /* SelectionTableViewController.swift in Sources */,
+				133940D926CFAB3D0015A5EF /* SpashViewController.swift in Sources */,
+				133940E626CFBDBF0015A5EF /* PrivacyViewController.swift in Sources */,
+				133940EC26CFD2510015A5EF /* CalculationViewController.swift in Sources */,
 				133940C526CFA8510015A5EF /* SceneDelegate.swift in Sources */,
+				13FE69B126D00E2E005D2AED /* Advertisefile.swift in Sources */,
+				133940DF26CFAC5C0015A5EF /* HomeViewController.swift in Sources */,
+				13651A8D26D092860043E1EF /* Protocols.swift in Sources */,
+				133940F526CFE7870015A5EF /* Utils.swift in Sources */,
+				133940E326CFB3E20015A5EF /* SettingsViewController.swift in Sources */,
+				133940E926CFC3940015A5EF /* AvgViewController.swift in Sources */,
+				133940F026CFE0600015A5EF /* Grade.swift in Sources */,
+				1310D47E26D169D5000ABAF2 /* DBhelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +451,7 @@
 		};
 		133940D426CFA8520015A5EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F78D6EE915A763E64F793AC /* Pods-GPA Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,12 +464,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.GPA-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		133940D526CFA8520015A5EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CE61CBE2B12EA5AB150A70 /* Pods-GPA Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,7 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.GPA-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
